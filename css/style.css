@@ -461,12 +461,11 @@ body {
     margin-top: 16.9rem;
     font-family: 'Lato', sans-serif; }
     .give-feedback-to-all-people-body .employee {
-      width: 82rem;
       height: 50rem;
-      padding: 3.5rem; }
-      @media (max-width: 1199px) {
-        .give-feedback-to-all-people-body .employee {
-          width: 100%; } }
+      max-width: 82rem;
+      padding: 3.5rem;
+      border: solid 1.5px #eaebee;
+      border-radius: 4px; }
       .give-feedback-to-all-people-body .employee-header .name {
         display: inline-block;
         margin-left: 1.2rem;
@@ -795,7 +794,7 @@ body {
     .people-export .input-container h3 {
       margin: 0;
       margin-bottom: 2.7rem;
-      font-size: 21px;
+      font-size: 2.1rem;
       font-weight: 700;
       color: #1a173b; }
     .people-export .input-container button {
@@ -1574,6 +1573,8 @@ body {
       .people-results-one-user-header .choose a {
         font-weight: 700;
         color: #1a173b; }
+    .people-results-one-user-header .buttons {
+      white-space: nowrap; }
     .people-results-one-user-header .buttons .btn-custom-blue:not(:last-of-type), .people-results-one-user-header .icons a:not(:last-of-type) {
       margin-right: 1.3rem; }
     .people-results-one-user-header button {
@@ -1999,7 +2000,7 @@ body {
     .teams-export .input-container h3 {
       margin: 0;
       margin-bottom: 2.7rem;
-      font-size: 21px;
+      font-size: 2.1rem;
       font-weight: 700;
       color: #1a173b; }
     .teams-export .input-container button {
@@ -2325,7 +2326,7 @@ body {
   padding: 0 4.6rem 0 3.4rem; }
   .teams-results-favourites-header {
     height: 17rem;
-    padding: 4.1rem 4.6rem 0 0rem;
+    padding: 4.1rem 0rem 0 0rem;
     background-color: #f8f9fb;
     z-index: 500; }
     .teams-results-favourites-header button {
@@ -2793,6 +2794,7 @@ body {
 
 .btn-custom-blue,
 .btn-custom-blue:hover {
+  white-space: nowrap;
   display: inline-block;
   padding: .8rem 3.2rem;
   background-color: #0077ff;

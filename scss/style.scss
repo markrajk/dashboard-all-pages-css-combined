@@ -765,12 +765,11 @@ body {
     font-family: 'Lato', sans-serif;
 
     & .employee {
-      width: 82rem;
       height: 50rem;
+      max-width: 82rem;
       padding: 3.5rem;
-      @include respond(desktop-lg) {
-        width: 100%;
-      }
+      border: solid 1.5px #eaebee;
+      border-radius: 4px;
 
       &-header {
 
@@ -1267,7 +1266,7 @@ body {
     & h3 {
       margin: 0;
       margin-bottom: 2.7rem;
-    font-size: 21px;
+    font-size: 2.1rem;
     font-weight: 700;
     color: #1a173b;
     }
@@ -2459,6 +2458,10 @@ body {
       }
     }
 
+    & .buttons {
+      white-space: nowrap;
+    }
+
     & .buttons .btn-custom-blue:not(:last-of-type),
     & .icons a:not(:last-of-type) {
       margin-right: 1.3rem;
@@ -3187,7 +3190,7 @@ body {
     & h3 {
       margin: 0;
       margin-bottom: 2.7rem;
-    font-size: 21px;
+    font-size: 2.1rem;
     font-weight: 700;
     color: #1a173b;
     }
@@ -3767,7 +3770,7 @@ body {
   &-header {
     height: 17rem;
     //margin-left: 24.4rem;
-    padding: 4.1rem 4.6rem 0 0rem;
+    padding: 4.1rem 0rem 0 0rem;
     background-color: #f8f9fb;
     //border-bottom: 1px solid #dee2e6;
     z-index: 500;
@@ -4510,6 +4513,7 @@ body {
 .btn-custom-blue,
 .btn-custom-blue:hover
   {
+    white-space: nowrap;
     display: inline-block;
   padding: .8rem 3.2rem;
   background-color: #0077ff;

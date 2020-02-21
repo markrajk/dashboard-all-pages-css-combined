@@ -1856,6 +1856,120 @@ body {
       }
     }
   }
+
+  & .panel-body {
+
+    & table {
+  
+      & i {
+        font-size: 2rem;
+        color: #5e636b;
+      }
+  
+      & img {
+        width: 2.7rem;
+        height: 2.7rem;
+        border-radius: 50%;
+        margin-right: 2rem;
+      }
+  
+      & thead tr {
+        height: 5rem; /* Fixed Row Height */
+      }
+  
+      /* Flex Table */
+      &.flex-table {
+        display: flex;
+        flex-direction: column;
+        //height: 100%;
+      }
+      &.flex-table thead,
+      &.flex-table tbody {
+        display: block;
+      }
+      &.flex-table thead {
+        margin-right: 0px;
+      }
+      &.flex-table tbody {
+        flex: 1;
+        max-height: calc(100vh - 14.4rem - 2.8rem - 6.9rem - 12.2rem - 6.9rem - 3rem);
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+  
+        &::-webkit-scrollbar {
+          /* WebKit */
+          width: 0;
+          height: 0;
+        }
+      }
+      &.flex-table tr {
+        width: 100%;
+        display: flex;
+      }
+      &.flex-table tr td:not(.spacer-left),
+      &.flex-table tr th:not(.spacer-left) {
+        white-space: nowrap;
+        display: flex;
+        flex: 1.1;
+        align-items: center;
+        justify-content: start;
+  
+        // @include respond(desktop-lg) {
+        //   flex: 1.2;
+        // }
+  
+        &.team-index {
+          flex: .75;
+           @include respond(desktop-md) {
+            flex: 1;
+          }
+  
+          @include respond(desktop-sm) {
+            flex: .5;
+          }
+        }
+  
+        &.team-lead-rating {
+          flex: .75;
+          //  @include respond(desktop-md) {
+          //   flex: 1;
+          // }
+        }
+  
+        &.team-view {
+          flex: .5;
+  
+          // @include respond(desktop-sm) {
+          //   display: none;
+          // }
+        }
+      }
+  
+      &.flex-table tr th {
+        border: none !important;
+        border-bottom: 1px solid #dee2e6 !important;
+        font-size: 1.4rem;
+        color: #5e636b;
+      }
+  
+      & .spacer-left {
+        // display: block;
+        //flex: 0.05 !important;
+        width: 25px !important;
+      }
+    
+      & .spacer-right {
+        flex: 0.02 !important;
+      }
+    
+      & .checkbox {
+        flex: 0.1 !important;
+        width: 25px !important;
+      }
+    }
+  }
 }
 //PEOPLE RESULTS ALL PEOPLE END
 //=========================================

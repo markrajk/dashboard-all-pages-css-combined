@@ -4406,6 +4406,7 @@ body {
   font-size: 2rem;
   font-weight: 600;
   color: #3d3f43;
+  margin-bottom: 10rem;
   & .company {
     font-size: 2rem;
     margin: 0;
@@ -4424,13 +4425,15 @@ body {
 }
 
 .signin {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%,-50%);
   padding: 0 6rem;
   width: 45rem;
   height: 63rem;
+  margin: auto;
+  //transform: translate(0, 25%);
   background-color: #FFF;
   border: solid 2px #d9d9d9;
   border-radius: 1.2rem;
@@ -4442,7 +4445,7 @@ body {
   &-header {
     height: 45px;
     margin-top: 9rem;
-    margin-bottom: 4.4rem;
+    margin-bottom: 5.5rem;
     font-size: 3.6rem;
     font-weight: 600;
     color: #183b56;
@@ -4451,10 +4454,10 @@ body {
   & #password,
     #email {
     padding: 1.7rem 2rem;
-    margin-bottom: 2.3rem;
+    margin-bottom: 3rem;
     width: 100%;
-    height: 5.6rem;
-    font-size: 1.6rem;
+    height: 5rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #183b56;;
     border-radius: 8px;
@@ -4468,19 +4471,21 @@ body {
 
     &:focus {
       outline: none;
-      border-color: #1565d8;
+      border: solid 1.8px #0077ff;
     }
   }
 
   & label {
-    font-size: 1.5rem;
+    margin-bottom: .7rem;
+    font-size: 1.4rem;
     font-weight: 600;
     line-height: 1.33;
-    color: #5a7184;
+    color: #484d52;
   }
 
   .check {
-    margin-bottom: 2.2rem;
+    margin-bottom: 2.6rem;
+    margin-top: .3rem;
     & input {
       margin-right: 1rem;
     }
@@ -4499,10 +4504,10 @@ body {
   }
 
   & .btn-custom-signin {
-    height: 5.6rem;
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: .24px;
+    height: 5.4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    //letter-spacing: .24px;
     color: #FFF;
     border-radius: 8px;
     border: none;
@@ -4510,7 +4515,7 @@ body {
   }
 
   .dont-have {
-    margin-top: 2.5rem;
+    margin-top: 2.6rem;
     font-size: 1.3rem;
     font-weight: 600;
     color: #5a7184;

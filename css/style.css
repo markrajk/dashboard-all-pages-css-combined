@@ -2713,8 +2713,7 @@ body {
   .people-signin .header {
     font-size: 2rem;
     font-weight: 600;
-    color: #3d3f43;
-    margin-bottom: 10rem; }
+    color: #3d3f43; }
     .people-signin .header .company {
       font-size: 2rem;
       margin: 0; }
@@ -2726,6 +2725,10 @@ body {
         margin-top: -3px;
         font-size: 2.5rem; }
   .people-signin .signin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 0 6rem;
     width: 45rem;
     height: 63rem;

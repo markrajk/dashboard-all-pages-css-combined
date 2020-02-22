@@ -106,8 +106,6 @@ body {
   padding: 0 4.6rem 0 3.4rem; }
   .teams-results-all-teams-header {
     position: relative;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 17rem;
     padding-top: 4.1rem;
@@ -118,6 +116,7 @@ body {
       font-size: 1.5rem;
       font-weight: 600; }
       .teams-results-all-teams-header-logout a {
+        height: 2rem;
         color: #6e747e; }
       .teams-results-all-teams-header-logout i {
         margin-top: 0;
@@ -297,6 +296,7 @@ body {
       font-size: 1.5rem;
       font-weight: 600; }
       .give-feedback-menu-header-logout a {
+        height: 2rem;
         color: #6e747e; }
       .give-feedback-menu-header-logout i {
         margin-top: 0;
@@ -437,6 +437,7 @@ body {
       font-size: 1.5rem;
       color: #6e747e; }
       .give-feedback-to-all-people-header-logout a {
+        height: 2rem;
         color: #6e747e; }
       .give-feedback-to-all-people-header-logout i {
         margin-top: 0;
@@ -554,6 +555,7 @@ body {
       font-size: 1.5rem;
       color: #6e747e; }
       .give-feedback-to-one-user-header-logout a {
+        height: 2rem;
         color: #6e747e; }
       .give-feedback-to-one-user-header-logout i {
         margin-top: 0;
@@ -763,6 +765,7 @@ body {
       font-size: 1.5rem;
       color: #6e747e; }
       .people-export-header-logout a {
+        height: 2rem;
         color: #6e747e; }
       .people-export-header-logout i {
         margin-top: 0;
@@ -909,6 +912,7 @@ body {
     font-weight: 600;
     color: #6e747e; }
     .people-invite-header-logout a {
+      height: 2rem;
       color: #6e747e;
       font-weight: 600; }
     .people-invite-header-logout i {
@@ -1060,6 +1064,7 @@ body {
       font-size: 1.5rem;
       font-weight: 600; }
       .people-results-all-people-header-logout a {
+        height: 2rem;
         color: #6e747e; }
       .people-results-all-people-header-logout i {
         margin-top: 0;
@@ -1287,6 +1292,7 @@ body {
       font-size: 1.5rem;
       font-weight: 600; }
       .people-results-key-people-header-logout a {
+        height: 2rem;
         color: #6e747e; }
       .people-results-key-people-header-logout i {
         margin-top: 0;
@@ -1615,6 +1621,7 @@ body {
       font-size: 1.5rem;
       font-weight: 600; }
       .people-results-one-user-header-logout a {
+        height: 2rem;
         color: #6e747e; }
       .people-results-one-user-header-logout i {
         margin-top: 0;
@@ -1842,6 +1849,7 @@ body {
     font-weight: 600;
     color: #6E747E; }
     .people-settings-header-logout a {
+      height: 2rem;
       color: #6E747E; }
     .people-settings-header-logout i {
       margin-top: 0;
@@ -2034,6 +2042,7 @@ body {
       font-size: 1.5rem;
       color: #6e747e; }
       .teams-export-header-logout a {
+        height: 2rem;
         color: #6e747e; }
       .teams-export-header-logout i {
         margin-top: 0;
@@ -2044,7 +2053,6 @@ body {
       height: 3.7rem;
       margin: 0;
       margin-bottom: 2.2rem;
-      margin-top: .5rem;
       font-size: 2.7rem;
       font-weight: 600;
       line-height: 1.37;
@@ -2191,6 +2199,7 @@ body {
       font-size: 1.5rem;
       font-weight: 600; }
       .teams-results-example-header-logout a {
+        height: 2rem;
         color: #6e747e; }
       .teams-results-example-header-logout i {
         margin-top: 0;
@@ -2391,9 +2400,8 @@ body {
   padding: 0 4.6rem 0 3.4rem; }
   .teams-results-favourites-header {
     height: 17rem;
-    padding: 4.1rem 0rem 0 0rem;
-    background-color: #f8f9fb;
-    z-index: 500; }
+    padding-top: 4.1rem;
+    background-color: #f8f9fb; }
     .teams-results-favourites-header button {
       font-family: "Lato", sans-serif;
       width: 21.7rem;
@@ -2409,6 +2417,7 @@ body {
       font-size: 1.5rem;
       font-weight: 600; }
       .teams-results-favourites-header-logout a {
+        height: 2rem;
         color: #6e747e; }
       .teams-results-favourites-header-logout .subtitle {
         color: #1a173b; }
@@ -2530,6 +2539,7 @@ body {
       font-size: 1.5rem;
       font-weight: 600; }
       .teams-settings-header-logout a {
+        height: 2rem;
         color: #6e747e; }
       .teams-settings-header-logout i {
         margin-top: 0;

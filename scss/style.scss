@@ -244,8 +244,6 @@ body {
 
   &-header {
     position: relative;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 17rem;
     padding-top: 4.1rem;
@@ -258,6 +256,7 @@ body {
       font-weight: 600;
       
       & a {
+        height: 2rem;
         color: #6e747e;
       }
 
@@ -512,6 +511,7 @@ body {
       font-weight: 600;
 
       & a {
+        height: 2rem;
         color: #6e747e;
       }
 
@@ -730,6 +730,7 @@ body {
       color: #6e747e;
 
       & a {
+        height: 2rem;
         color: #6e747e;
       }
 
@@ -910,6 +911,7 @@ body {
       color: #6e747e;
 
       & a {
+        height: 2rem;
         color: #6e747e;
       }
 
@@ -1224,6 +1226,7 @@ body {
       color: #6e747e;
 
       & a {
+        height: 2rem;
         color: #6e747e;
       }
 
@@ -1438,6 +1441,7 @@ body {
       color: #6e747e;
 
       & a {
+        height: 2rem;
         color: #6e747e;
         font-weight: 600;
       }
@@ -1656,6 +1660,7 @@ body {
       font-weight: 600;
 
       & a {
+        height: 2rem;
         color: #6e747e;
       }
 
@@ -2001,6 +2006,7 @@ body {
       font-weight: 600;
 
       & a {
+        height: 2rem;
         color: #6e747e;
       }
 
@@ -2537,6 +2543,7 @@ body {
       font-weight: 600;
 
       & a {
+        height: 2rem;
         color: #6e747e;
       }
 
@@ -2938,6 +2945,7 @@ body {
           color: #6E747E;
 
           & a {
+              height: 2rem;
               color: #6E747E;
           }
 
@@ -3229,16 +3237,11 @@ body {
   padding: 0 4.6rem 2.8rem 3.4rem;
 
   &-header {
-    // position: fixed;
-    // top: 0;
-    // left: 0;
-    // width: calc(100% - 24.4rem);
     height: 17rem;
-    //margin-left: 24.4rem;
-    //padding: 4.1rem 0 0 3.4rem;
     background-color: #f8f9fb;
     padding-top: 4.1rem;
-    //border-bottom: 1px solid #dee2e6;
+
+    
 
 
     & .back {
@@ -3261,6 +3264,7 @@ body {
       color: #6e747e;
 
       & a {
+        height: 2rem;
         color: #6e747e;
       }
 
@@ -3276,11 +3280,14 @@ body {
       height: 3.7rem;
       margin: 0;
       margin-bottom: 2.2rem;
-      margin-top: .5rem;
+      //margin-top: .5rem;
       font-size: 2.7rem;
       font-weight: 600;
       line-height: 1.37;
       color: #1a173b;
+
+
+      
     }
 
     & h3 {
@@ -3517,6 +3524,7 @@ body {
       font-weight: 600;
 
       & a {
+        height: 2rem;
         color: #6e747e;
       }
 
@@ -3880,13 +3888,15 @@ body {
   background-color: #f8f9fb;
   padding: 0 4.6rem 0 3.4rem;
 
+  
+
   &-header {
     height: 17rem;
     //margin-left: 24.4rem;
-    padding: 4.1rem 0rem 0 0rem;
+    padding-top: 4.1rem;
     background-color: #f8f9fb;
     //border-bottom: 1px solid #dee2e6;
-    z-index: 500;
+
     & button {
       font-family: "Lato", sans-serif;
       width: 21.7rem;
@@ -3905,6 +3915,7 @@ body {
       font-weight: 600;
       
       & a {
+        height: 2rem;
         color: #6e747e;
       }
 
@@ -4103,6 +4114,7 @@ body {
       
 
       a {
+        height: 2rem;
         color: #6e747e;
       }
 
